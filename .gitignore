@@ -1,0 +1,97 @@
+##############################
+# IntelliJ IDEA
+##############################
+.idea/
+*.iml
+*.iws
+out/
+
+# IntelliJ workspace-specific
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/libraries
+
+##############################
+# Gradle
+##############################
+.gradle/
+build/
+
+# Ignore Gradle wrapper JAR (optional - keep if needed)
+!gradle/wrapper/gradle-wrapper.jar
+
+# Ignore local Gradle properties (machine-specific)
+gradle.properties
+
+##############################
+# Logs
+##############################
+*.log
+logs/
+
+##############################
+# OS Files
+##############################
+.DS_Store
+Thumbs.db
+
+##############################
+# Java / JVM
+##############################
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*
+replay_pid*
+
+##############################
+# Spring Boot
+##############################
+application-local.yml
+application-local.properties
+application-dev.yml
+application-dev.properties
+
+##############################
+# Environment / Secrets
+##############################
+.env
+.env.*
+
+##############################
+# Temporary / Cache Files
+##############################
+*.tmp
+*.swp
+*.bak
+*.cache
+
+##############################
+# Test Output
+##############################
+/test-output/
+/surefire-reports/
+/failsafe-reports/
+
+##############################
+# Coverage Reports
+##############################
+/coverage/
+/jacoco.exec
+
+##############################
+# Node (if frontend present)
+##############################
+node_modules/
+dist/
+npm-debug.log*
+yarn-error.log*
+
+##############################
+# Mac/Linux Misc
+##############################
+*.pid
+*.seed
+*.pid.lock
